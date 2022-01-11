@@ -20,5 +20,3 @@
         config: "--type network --source default --model virtio"
   tasks:
     - name: Create KVM VM
-      include_role:
-        name: RedHatGov.kvm-vm
